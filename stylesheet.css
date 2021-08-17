@@ -5,7 +5,7 @@
         background-attachment:initial;
         background-repeat: no-repeat;
         background-size: cover;
-        font-family: sans-serif;
+        font-family: poppins;
     }
     #outer {
         background-color: #444444;
@@ -341,32 +341,35 @@
         width: 30vw;
         height: 30vw;
         margin-left: 35%;
-        margin-top: 0%;
+        margin-top: 15%;
         position: absolute;
-        
+        overflow: hidden;
     }
     #name {
         color: rgb(206, 204, 204);
-        margin-top: 30%;
+        margin-top: 58%;
         margin-left: 28%;
         display: block;
         font-size: 5vw; 
         padding: 0%;
+        z-index: 1;
+        position: absolute;
     }
     #job {
         color: rgb(206, 204, 204);
-        margin-top: 0%;
-        margin-left: 37%;
+        margin-top: 69%;
+        margin-left: 38%;
         display: block;
         font-size: 4.5vw;
+        position: absolute;
     }
     #buttons{
         margin-left: 35%;
-        margin-top: 0%;
+        margin-top: 80%;
         width: 100px;
         height: 100px;
         display: block;
-        position: relative;
+        position: absolute;
     }
     #twitter,#instagram,#linkedin {
         display: inline-block;
