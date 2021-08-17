@@ -1,11 +1,12 @@
+/* desktop */
 @media only screen and (min-width:851px){
-    body{
+    body {
         background-color: #04B0DC;
         background-image: url(back.jpg);
         background-attachment:initial;
         background-repeat: no-repeat;
         background-size: cover;
-        font-family: poppins;
+        font-family: 'Poppins', sans-serif;
     }
     #outer {
         background-color: #444444;
@@ -14,7 +15,6 @@
         height: 80vh;
         margin-left: 10vw;
         margin-top: 10vh;
-        margin-bottom: 10vh;
         position: relative;
         display: inline-block;
     }
@@ -62,7 +62,7 @@
     #name {
         color: rgb(206, 204, 204);
         margin-top: 80%;
-        margin-left: 21%;
+        margin-left: 25%;
         display: block;
         font-size: 2vw; 
         padding: 0%;
@@ -70,16 +70,17 @@
     #job {
         color: rgb(206, 204, 204);
         margin-top: 0%;
-        margin-left: 36%;
+        margin-left: 38%;
         display: block;
         font-size: 1.5vw;
     }
     #buttons{
-        margin-left: 29.5%;
+        margin-left: 30.5%;
         margin-top: 0%;
         width: auto;
         height: auto;
         position: relative;
+        
     }
     #twitter,#instagram,#linkedin {
         display: inline-block;
@@ -123,6 +124,9 @@
     .links{
         padding: 1.3vw;
     }
+    a:hover, a:visited, a:link, a:active {
+        text-decoration: none;
+    }
     #menu-section {
         background-color: #444444;
         border-radius: 40px;
@@ -140,16 +144,31 @@
         font-size: 2vw;
         display: block;
     }
+    #menu-item:hover {
+        color:#04B0DC;
+    }
+    #nav-anim a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    #content {
+        color: rgb(206, 204, 204);
+        margin-top: 25%;
+        margin-right: 20%;
+        margin-left: 5%;
+        text-align: justify;
+    }
 }
 
-@media only screen and (max-width:850px) and (min-width:501px){
+/* Tablet */
+@media only screen and (max-width:850px) and (min-width:501px){      
     body{
         background-color: #04B0DC;
         background-image: url(back.jpg);
         background-attachment:initial;
         background-repeat: no-repeat;
         background-size: cover;
-        font-family: sans-serif;
+        font-family: 'Poppins', sans-serif;
     }
     #outer {
         background-color: #444444;
@@ -158,7 +177,6 @@
         height: 80vh;
         margin-left: 10vw;
         margin-top: 3%;
-        margin-bottom: 10vh;
         position: relative;
         display: inline-block;
     }
@@ -274,7 +292,7 @@
         width: 28vw;
         height: 7vw;
         margin-left: 10vw;
-        margin-top: 10vw;
+        margin-top: 3%;
         float: left;
         position: relative;
     }
@@ -288,8 +306,19 @@
         float: left;
         display: inline;
     }
+    #menu-item:hover {
+        color:#04B0DC;
+    }
+    #content {
+        color: rgb(206, 204, 204);
+        margin-top: 25%;
+        margin-right: 20%;
+        margin-left: 5%;
+        text-align: justify;
+    }
 }
 
+/* Mobile */
 @media only screen and (max-width:500px) {
     body{
         background-color: #04B0DC;
@@ -297,14 +326,14 @@
         background-attachment:initial;
         background-repeat: no-repeat;
         background-size: cover;
-        font-family: sans-serif;
+        font-family: 'Poppins', sans-serif;
     }
     #outer {
         background-color: #444444;
         border-radius: 30px;
         margin-top: 3%;
         margin-left: 10vw;
-        margin-bottom: 10vw;
+        margin-bottom: 5vw;
         width: 80vw;
         height: 1000px;
         position: relative;
@@ -344,6 +373,7 @@
         margin-top: 15%;
         position: absolute;
         overflow: hidden;
+        opacity: 0.5;
     }
     #name {
         color: rgb(206, 204, 204);
@@ -431,6 +461,17 @@
         position: relative;
         float: left;
         display: inline;
+    }
+    #menu-item:hover {
+        color:#04B0DC;
+    }
+    #content {
+        color: rgb(206, 204, 204);
+        margin-top: 25%;
+        margin-right: 5%;
+        margin-left: 5%;
+        text-align: justify;
+        position: absolute;
     }
 }
 
