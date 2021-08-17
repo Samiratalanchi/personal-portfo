@@ -2,7 +2,7 @@
 @media only screen and (min-width:851px){
     body {
         background-color: #04B0DC;
-        background-image: url(back.jpg);
+        background-image: url(../img/back.jpg);
         background-attachment:initial;
         background-repeat: no-repeat;
         background-size: cover;
@@ -62,7 +62,7 @@
     #name {
         color: rgb(206, 204, 204);
         margin-top: 80%;
-        margin-left: 25%;
+        margin-left: 23%;
         display: block;
         font-size: 2vw; 
         padding: 0%;
@@ -70,9 +70,9 @@
     #job {
         color: rgb(206, 204, 204);
         margin-top: 0%;
-        margin-left: 38%;
+        margin-left: 27.5%;
         display: block;
-        font-size: 1.5vw;
+        font-size: 1.3vw;
     }
     #buttons{
         margin-left: 30.5%;
@@ -84,7 +84,7 @@
     }
     #twitter,#instagram,#linkedin {
         display: inline-block;
-        margin-top: 10%;
+        margin-top: 13%;
         border: 0%;
         border-radius: 50%;
         width:2vw;
@@ -92,32 +92,32 @@
         position: absolute;
     }
     #twitter {
-        background-image: url(twitter.jpg);
+        background-image: url(../img/twitter.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
     #twitter:hover {
-        background-image: url(twitter-hover.jpg);
+        background-image: url(../img/twitter-hover.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
     #linkedin {
-        background-image: url(linked\ in.jpg);
+        background-image: url(../img/linkedin.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
     #linkedin:hover {
-        background-image: url(linkedin-hover.jpg);
+        background-image: url(../img/linkedin-hover.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
     #instagram {
-        background-image: url(instagram.jpg);
+        background-image: url(../img/instagram.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
     #instagram:hover {
-        background-image: url(instagram-hover.jpg);
+        background-image: url(../img/instagram-hover.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -171,7 +171,7 @@
 @media only screen and (max-width:850px) and (min-width:501px){      
     body{
         background-color: #04B0DC;
-        background-image: url(back.jpg);
+        background-image: url(../img/back.jpg);
         background-attachment:initial;
         background-repeat: no-repeat;
         background-size: cover;
@@ -239,7 +239,7 @@
     #job {
         color: rgb(206, 204, 204);
         margin-top: 0%;
-        margin-left: 36%;
+        margin-left: 23%;
         display: block;
         font-size: 1.5vw;
     }
@@ -261,32 +261,32 @@
         opacity: 1;
     }
     #twitter {
-        background-image: url(twitter.jpg);
+        background-image: url(../img/twitter.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
     #twitter:hover {
-        background-image: url(twitter-hover.jpg);
+        background-image: url(../img/twitter-hover.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
     #linkedin {
-        background-image: url(linked\ in.jpg);
+        background-image: url(../img/linkedin.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
     #linkedin:hover {
-        background-image: url(linkedin-hover.jpg);
+        background-image: url(../img/linkedin-hover.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
     #instagram {
-        background-image: url(instagram.jpg);
+        background-image: url(../img/instagram.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
     #instagram:hover {
-        background-image: url(instagram-hover.jpg);
+        background-image: url(../img/instagram-hover.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -318,7 +318,7 @@
     }
     #content {
         color: white;
-        margin-top: 25%;
+        margin-top: 10%;
         margin-right: 20%;
         margin-left: 5%;
         text-align: justify;
@@ -326,7 +326,7 @@
     }
     #subject {
         color: white;
-        margin-top: 22%;
+        margin-top: 25%;
         margin-left: 5%;
         font-size: 1.5vw;
     }
@@ -336,7 +336,7 @@
 @media only screen and (max-width:500px) {
     body{
         background-color: #04B0DC;
-        background-image: url(backtall.jpg);
+        background-image: url(../img/backtall.jpg);
         background-attachment:initial;
         background-repeat: no-repeat;
         background-size: cover;
@@ -392,9 +392,9 @@
     #name {
         color: rgb(206, 204, 204);
         margin-top: 58%;
-        margin-left: 28%;
+        margin-left: 24%;
         display: block;
-        font-size: 5vw; 
+        font-size: 6vw; 
         padding: 0%;
         z-index: 1;
         position: absolute;
@@ -402,7 +402,7 @@
     #job {
         color: rgb(206, 204, 204);
         margin-top: 69%;
-        margin-left: 38%;
+        margin-left: 25%;
         display: block;
         font-size: 4.5vw;
         position: absolute;
@@ -425,32 +425,32 @@
         /* margin-top: 10%; */
     }
     #twitter {
-        background-image: url(twitter.jpg);
+        background-image: url(../img/twitter.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
     #twitter:hover {
-        background-image: url(twitter-hover.jpg);
+        background-image: url(../img/twitter-hover.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
     #linkedin {
-        background-image: url(linked\ in.jpg);
+        background-image: url(../img/linkedin.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
     #linkedin:hover {
-        background-image: url(linkedin-hover.jpg);
+        background-image: url(../img/linkedin-hover.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
     #instagram {
-        background-image: url(instagram.jpg);
+        background-image: url(../img/instagram.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
     #instagram:hover {
-        background-image: url(instagram-hover.jpg);
+        background-image: url(../img/instagram-hover.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -481,7 +481,7 @@
     }
     #content {
         color: white;
-        margin-top: 30%;
+        margin-top: 38%;
         margin-right: 5%;
         margin-left: 5%;
         text-align: justify;
@@ -490,11 +490,10 @@
     }
     #subject {
         color: white;
-        margin-top: 18%;
+        margin-top: 21%;
         margin-left: 5%;
         font-size: 4vw;
         position: absolute;
-    }
     }
 }
 
