@@ -152,11 +152,18 @@
         text-decoration: none;
     }
     #content {
-        color: rgb(206, 204, 204);
-        margin-top: 25%;
+        color: white;
+        margin-top: 3%;
         margin-right: 20%;
         margin-left: 5%;
         text-align: justify;
+        font-size: 1.2vw;
+    }
+    #subject {
+        color: white;
+        margin-top: 22%;
+        margin-left: 5%;
+        font-size: 1.5vw;
     }
 }
 
@@ -310,11 +317,18 @@
         color:#04B0DC;
     }
     #content {
-        color: rgb(206, 204, 204);
+        color: white;
         margin-top: 25%;
         margin-right: 20%;
         margin-left: 5%;
         text-align: justify;
+        font-size: 1.2vw;
+    }
+    #subject {
+        color: white;
+        margin-top: 22%;
+        margin-left: 5%;
+        font-size: 1.5vw;
     }
 }
 
@@ -395,7 +409,7 @@
     }
     #buttons{
         margin-left: 35%;
-        margin-top: 80%;
+        margin-top: 83%;
         width: 100px;
         height: 100px;
         display: block;
@@ -466,12 +480,21 @@
         color:#04B0DC;
     }
     #content {
-        color: rgb(206, 204, 204);
-        margin-top: 25%;
+        color: white;
+        margin-top: 30%;
         margin-right: 5%;
         margin-left: 5%;
         text-align: justify;
         position: absolute;
+        font-size: 3vw;
+    }
+    #subject {
+        color: white;
+        margin-top: 18%;
+        margin-left: 5%;
+        font-size: 4vw;
+        position: absolute;
+    }
     }
 }
 
