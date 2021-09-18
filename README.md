@@ -1,5 +1,5 @@
-# personal-portfo
-it's show your portfo professionally
+# Personal Portfo
 
-here you can access my project overview
-https://samiratalanchi.github.io/personal-portfolio/
+it's show your portfo professionally.
+
+[Here](https://samiratalanchi.github.io/personal-portfolio) you can access my project overview.
