@@ -131,7 +131,7 @@
         margin-top: 10vw;
         position: absolute;
     }
-    #menu-item { 
+    .menu-item { 
         color: white;
         padding: 5%;
         margin-top: 2%; 
@@ -141,7 +141,7 @@
         float: left;
         display: inline;
     }
-    #menu-item:hover {
+    .menu-item:hover {
         color:#04B0DC;
     }
     
@@ -299,7 +299,7 @@
         float: left;
         position: relative;
     }
-    #menu-item { 
+    .menu-item { 
         color: white;
         padding: 5%;
         margin-top: 0%; 
@@ -309,7 +309,7 @@
         float: left;
         display: inline;
     }
-    #menu-item:hover {
+    .menu-item:hover {
         color:#04B0DC;
     }
     #content {
@@ -468,7 +468,7 @@
         float: right;
         text-align: center;
     }
-    #menu-item {
+    .menu-item {
         
         margin-top: 25%;  
         padding: 5%;
@@ -476,7 +476,7 @@
         font-size: 2vw;
         display: block;
     }
-    #menu-item:hover {
+    .menu-item:hover {
         color:#04B0DC;
     }
     #nav-anim a {
@@ -500,7 +500,40 @@
     #first-box p {
         padding-left: 5px;
     }
-    
+    #second-box {
+        width:150px;
+        height: 3vw;
+        position: absolute;
+        background-color: #444444;
+        color: #FFFFFF;
+        margin-left: 85vw;
+        margin-top: 17vh;
+        z-index: 10;
+        display: flex;
+        align-items: center;
+        font-size: 1.5vw;
+        opacity: 1;
+    }
+    #second-box p {
+        padding-left: 5px;
+    }
+    #third-box {
+        width:150px;
+        height: 3vw;
+        position: absolute;
+        background-color: #444444;
+        color: #FFFFFF;
+        margin-left: 85vw;
+        margin-top: 23vh;
+        z-index: 10;
+        display: flex;
+        align-items: center;
+        font-size: 1.5vw;
+        opacity: 1;
+    }
+    #third-box p {
+        padding-left: 5px;
+    }
     #content {
         color: white;
         margin-top: 3%;
